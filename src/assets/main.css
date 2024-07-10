@@ -1,0 +1,39 @@
+@import './base.css';
+
+@font-face {
+  font-family: 'SevenSegment';
+  src: url('/src/assets/fonts/Seven Segment.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'zpix';
+  src: url('/src/assets/fonts/zpix.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+  #app {
+    padding: 0 2rem;
+  }
+}
